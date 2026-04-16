@@ -1,24 +1,11 @@
-# Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
-
-node_modules
-dist
-dist-ssr
-*.local
-
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# 创建 .gitignore 文件并写入配置
+echo "# 依赖包
+node_modules/
+# 构建产物
+dist/
+# 环境变量
+.env
+# 编辑器配置
+.vscode/
+# 日志
+*.log" > .gitignore

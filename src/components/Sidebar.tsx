@@ -52,11 +52,11 @@ const Sidebar: React.FC<SidebarProps> = ({onSubscribe}) =>{
         <h3>关于作者</h3>
         <div className={styles.authorInfo}>
           <img
-            src="https://img1.baidu.com/it/u=3208573067,1573469868&fm=253&fmt=auto&app=138&f=JPEG?w=800&h=899"
-            alt="李贺杰"
+            src="src/assets/ccgame.png"
+            alt="陈翰轮"
             className={styles.avatar}
           />
-          <p>Minion(李贺杰)，中国 CS 传奇突破手,Vitality 战队核心,4 次 HLTV 年度 TOP1、MVP 数历史第一,手握三座 Major 冠军,兼具顶尖瞄准与顶级意识,是公认的 CS 历史最强选手之一。</p>
+          <p>陈翰轮，大三学生，游戏帧率优化工程师，精通渲染管线与CPU/GPU性能分析，擅长优化Draw Call、着色器及资源，有效提升游戏流畅度与适配性。淘宝搜索：cc游戏优化</p>
         </div>
       </section>
 
@@ -90,8 +90,8 @@ const Sidebar: React.FC<SidebarProps> = ({onSubscribe}) =>{
       <section className={styles.widget}>
         <h3>合作伙伴</h3>
         <div className={styles.partners}>
-          <img src={pzPng} alt="Partner 1" />
-          <img src={baiduPng} alt="Partner 2" />
+          <img src="src/assets/qianniu.png" alt="Partner 1" />
+          <img src="src/assets/taobao.png" alt="Partner 2" />
         </div>
       </section>
     </aside>
